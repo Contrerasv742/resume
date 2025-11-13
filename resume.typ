@@ -90,9 +90,11 @@
 #v(-3pt)
 #pad(left: 1em)[*Programming Languages*: C, C++, Python, Verilog, Rust]
 #v(-6pt)
-#pad(left: 1em)[*Developer Tools*: Git, Docker, CAD, Vivado, Linux, Shell Scripting, Linux Kernel]
+#pad(left: 1em)[*Developer Tools*: Git, Docker, CAD, Vivado,
+  Linux, Shell Scripting, Linux Kernel]
 #v(-6pt)
-#pad(left: 1em)[*Libraries*: QT, NumPy, Matplotlib]
+#pad(left: 1em)[*Relevant Courses*: Network Programming, Computer
+  System Design, Mechatronics, Embedded Systems]
 
 /*****************
 * Technical Projects
