@@ -79,7 +79,7 @@
 #experience_heading(
   "University of California, Santa Cruz",
   "Santa Cruz, CA",
-  "Bachelors in Computer Engineering",
+  "Bachelors in Computer Engineering, Concentration Networking",
   "Sep. 2022 – Dec. 2025"
 )
 
@@ -102,26 +102,19 @@
 /*****************
 * Vault
 *******************/
-#project_heading([*Vault* | _C++, Git, JSON, Cryptography_], [July 2024 – Present])
-- Developed a deep understanding of industry-standard encryption methods:
-  2048-bit RSA for key exchange and AES-256 for data encryption
-- Implemented a hybrid crypto-system, combining asymmetric and symmetric
-  encryption for optimal security and performance
-- Designed an intuitive user interface with features like password strength
-  assessment, auto-fill functionality, and secure password generation
-- Utilized JSON for efficient data serialization, enabling easy local storage
-  and future cloud integration
-
-/**********
-* Emulator
-************/
-#project_heading([*Emulator* | _C++, Git_], [Feb. 2024 – June 2024])
-- Applied extensive knowledge of computer architecture to develop a highly
-  efficient virtual CPU and GPU
-- Learned the intricacies of continuous integration and crafted robust .yml
-  files to streamline development
-- Strengthened team leadership and collaboration skills through extensive work
-  on git and continuous integration
+#project_heading([*Vault* | _C++, Git, JSON, Cryptography, Hardware Security_], [July 2024 – Present])
+- Engineered a distributed password management system
+  implementing AES-256 encryption with Diffie-Hellman key
+  exchange protocols for secure credential storage and transmission
+- Integrated biometric multi-factor authentication and hardware
+  security module (HSM) design for local encrypted data storage
+  with tamper-resistant physical access controls
+- Designed network-isolated architecture with zero-knowledge
+  encryption model, ensuring credentials remain encrypted
+- Leveraged OpenSSL cryptographic libraries to implement
+  secure key derivation functions
+- Developing CAD prototype for dedicated hardware vault device
+  with isolated storage, MFA, and secure boot
 
 /****************************
 * Multi-threaded HTTP Server
@@ -131,13 +124,24 @@
   practices
 - Implemented a sophisticated reader-writer lock system to optimize performance
   and ensure data integrity
-- Developed a robust server capable of handling 100+ concurrent HTTP requests
-  efficiently
+- Developed a robust server capable of handling 200+ concurrent HTTP requests
+  without data loss
+
+/**********
+* Emulator
+************/
+#project_heading([*Emulator* | _C++, Git_], [Feb. 2024 – June 2024])
+- Applied extensive knowledge of computer architecture to develop a highly
+  efficient virtual CPU and GPU
+- Learned the intricacies of continuous integration and crafted robust _.yml_
+  files to streamline development
+- Strengthened team leadership and collaboration skills through extensive work
+  on git and continuous integration
 
 /************
-* Snackoboto Assasino
+* Snackoboto Assassino
 **************/
-#project_heading([*Snackoboto Assasino* | _C, Mechanical Design, CAD, 3D Printing, Embedded Systems_], [March 2025 – June 2025])
+#project_heading([*Snackoboto Assassino* | _C, Mechanical Design, CAD, 3D Printing, Embedded Systems_], [March 2025 – June 2025])
 - Designed and fabricated a fully 3D-printed autonomous robot capable of firing
   M&M's at IR beacons and obstacles
 - Engineered modular stacking design with yaw and pitch tilt system using
@@ -181,7 +185,6 @@
   events, successfully raising over \$900
 - Inspired and motivated 40+ students through engaging and informative biweekly
   meetings
-
 
 /********************************
 * Skills, Passions, and Interest 
