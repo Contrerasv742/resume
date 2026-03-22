@@ -121,7 +121,7 @@
 /****************************
 * Multi-threaded HTTP Server
 ******************************/
-#project_heading([*Multi-threaded HTTP Server* | _C_], [Jan. 2024 – Dec. 2024])
+#project_heading([*Multi-threaded HTTP Server* | _C_], [Jan. 2024 – Mar. 2024])
 - Gained a deep understanding of common HTTP request formatting and best
   practices
 - Implemented a sophisticated reader-writer lock system to optimize performance
@@ -197,4 +197,4 @@
 #v(-6pt)
 #pad(left: 1em)[*Passions*: Running, Guitar, Cooking, and Baking]
 #v(-6pt)
-#pad(left: 1em)[*Interest*: Systems Programming, Encryption, Cybersecurity, and Mechanical Design]
+#pad(left: 1em)[*Interest*: Computer Networks, Systems Programming, Encryption, Cybersecurity, and Mechanical Design]
