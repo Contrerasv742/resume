@@ -101,6 +101,23 @@
 *******************/
 #section_heading("Technical Projects")
 
+/************
+* Snackoboto Assassino
+**************/
+#project_heading([*Snackoboto Assassino* | _Mechatronics
+  (ECE118), CAD, 3D Printing, Embedded Systems_], [March 2025 –
+  June 2025])
+- Designed and fabricated a fully 3D-printed autonomous robot capable of firing
+  M&M's at IR beacons and obstacles
+- Engineered modular stacking design allowing for a stepper
+  driven yaw and pitch tilt system
+- Mitigated stepper motor torque limitations through mechanical
+  optimization and friction enhancements
+- Resolved critical center-of-mass displacement issues through
+  counterweight optimization and strategic plastic volume redistribution,
+  maintaining structural integrity while rebalancing 386mm³ design within volume
+  constraints
+
 /*****************
 * Vault
 *******************/
@@ -138,22 +155,11 @@
 - Learned the intricacies of continuous integration and crafted robust _.yml_
   files to streamline development
 - Strengthened team leadership and collaboration skills through extensive work
-  on git and continuous integration
+  on Git and continuous integration
 
-/************
-* Snackoboto Assassino
-**************/
-#project_heading([*Snackoboto Assassino* | _C, Mechanical Design, CAD, 3D Printing, Embedded Systems_], [March 2025 – June 2025])
-- Designed and fabricated a fully 3D-printed autonomous robot capable of firing
-  M&M's at IR beacons and obstacles
-- Engineered modular stacking design with yaw and pitch tilt system using
-  stepper motors
-- Mitigated stepper motor limitations through mechanical optimization and
-  friction (via rubber band) enhancement
-- Resolved critical center-of-mass displacement issues through iterative
-  counterweight optimization and strategic plastic volume redistribution,
-  maintaining structural integrity while rebalancing 386mm³ design within volume
-  constraints
+/********************
+* CSE 121 Project
+**********************/
 
 /*****************************************
 * Leadership and Professional Development
