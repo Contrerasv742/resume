@@ -66,8 +66,8 @@
 #align(center)[
   #text(size: 16pt, weight: "bold")[Victor Perez Contreras] \
   (408)219-2875 | #link("mailto:Contrerasv742@gmail.com")[Contrerasv742\@gmail.com] |
-  #link("https://linkedin.com/in/victor-perez-contreras/")[*LinkedIn:* Victor Perez Contreras] |
-  #link("https://github.com/Contrerasv742")[*GitHub:* Contrerasv742]
+  #link("https://www.linkedin.com/in/victor-perez-contreras/")[*LinkedIn:* Victor Perez Contreras] |
+  #link("https://contrerasv742.github.io/")[*GitHub:* Contrerasv742]
 ]
 
 
@@ -79,7 +79,7 @@
 #experience_heading(
   "University of California, Santa Cruz",
   "Santa Cruz, CA",
-  "Bachelors in Computer Engineering, Concentration Networking",
+  "Bachelors in Computer Engineering, Systems Programming",
   "Sep. 2022 – Dec. 2025"
 )
 
@@ -88,13 +88,13 @@
 *******************/
 #section_heading("Technical Skills")
 #v(-3pt)
-#pad(left: 1em)[*Programming Languages*: C, C++, Python, Verilog, Rust]
+#pad(left: 1em)[*Programming Languages*: C, C++, Python]
 #v(-6pt)
-#pad(left: 1em)[*Developer Tools*: Git, Docker, CAD, Vivado,
-  Linux, Shell Scripting, Linux Kernel]
+#pad(left: 1em)[*Developer Tools*: Git, ESP-IDF, CAD, Linux,
+Shell Scripting, ]
 #v(-6pt)
-#pad(left: 1em)[*Relevant Courses*: Network Programming, Computer
-  System Design, Mechatronics, Embedded Systems]
+#pad(left: 1em)[*Relevant Courses*: Mechatronics, Embedded
+Systems, Computer System Design, Networking, Signals & Systems]
 
 /*****************
 * Technical Projects
@@ -121,19 +121,34 @@
 /*****************
 * Vault
 *******************/
-#project_heading([*Vault* | _C++, Git, JSON, Cryptography, Hardware Security_], [July 2024 – Present])
+#project_heading([*Vault* | _Password Manager, C++, Git, JSON,
+Cryptography, Hardware Security_], [July 2024 – Present])
 - Engineered a distributed password management system
   implementing AES-256 encryption with Diffie-Hellman key
   exchange protocols for secure credential storage and transmission
-- Integrated biometric multi-factor authentication and hardware
-  security module (HSM) design for local encrypted data storage
-  with tamper-resistant physical access controls
+- Integrated biometric multi-factor authentication and (HSM)
+  design for local encrypted data storage
 - Designed network-isolated architecture with zero-knowledge
   encryption model, ensuring credentials remain encrypted
 - Leveraged OpenSSL cryptographic libraries to implement
   secure key derivation functions
 - Developing CAD prototype for dedicated hardware vault device
   with isolated storage, MFA, and secure boot
+
+/**********
+* Jammer
+************/
+#project_heading([*Jammer* | _IR Jammer, C++, AI, ESP-IDF, CAD,
+Signal Processing, Mechatronics_], [May 2026 - Present])
+- Architected a real-time embedded system on the ESP-32
+  (ESP-IDF/FreeRTOS) coordinating concurrent tasks for sensor
+  acquisition, signal processing, and actuator control
+- Implemented a 3-sensor triangulation algorithm to localize NIR
+  sources in space using AI trained TDoA estimation
+- Developed a closed-loop 2-axis gimbal control system
+  with servo actuation for smooth, accurate target
+  tracking
+
 
 /****************************
 * Multi-threaded HTTP Server
@@ -146,25 +161,10 @@
 - Developed a robust server capable of handling 200+ concurrent HTTP requests
   without data loss
 
-/**********
-* Emulator
-************/
-#project_heading([*Emulator* | _C++, Git_], [Feb. 2024 – June 2024])
-- Applied extensive knowledge of computer architecture to develop a highly
-  efficient virtual CPU and GPU
-- Learned the intricacies of continuous integration and crafted robust _.yml_
-  files to streamline development
-- Strengthened team leadership and collaboration skills through extensive work
-  on Git and continuous integration
-
-/********************
-* CSE 121 Project
-**********************/
-
 /*****************************************
-* Leadership and Professional Development
+* Professional Development
 *******************************************/
-#section_heading("Leadership and Professional Development")
+#section_heading("Professional Development")
 
 #experience_heading(
   "L'SPACE Engineer Program",
@@ -184,15 +184,15 @@
   correction protocols
 
 #experience_heading(
-  "Active Teen Against Cancer Club President",
-  "Santa Clara, CA",
-  "Adrian Wilcox High School",
-  "July 2021 – July 2022"
+  "Retail Associate — Software Support & Bike Mechanic",
+  "San Jose, CA",
+  "Good Karma Bikes",
+  "June 2026 – Present"
 )
-- Spearheaded the organization of large-scale volunteering and fundraising
-  events, successfully raising over \$900
-- Inspired and motivated 40+ students through engaging and informative biweekly
-  meetings
+- Provide low-cost bike repair & maintenance to the community,
+  expanding accessible, affordable transportation
+- Build and maintain software tools that improves shop
+  operations and accessibility for staff and fellow team members
 
 /********************************
 * Skills, Passions, and Interest 
@@ -201,6 +201,7 @@
 #v(-3pt)
 #pad(left: 1em)[*Languages*: English (Fluent) and Spanish (Native)]
 #v(-6pt)
-#pad(left: 1em)[*Passions*: Running, Guitar, Cooking, and Baking]
+#pad(left: 1em)[*Passions*: Cycling, Volunteering, and Guitar]
 #v(-6pt)
-#pad(left: 1em)[*Interest*: Computer Networks, Systems Programming, Encryption, Cybersecurity, and Mechanical Design]
+#pad(left: 1em)[*Interest*: Embedded Systems, Firmware, Computer
+Networks, Hardware Security, Robotics]
