@@ -143,8 +143,8 @@ Signal Processing, Mechatronics_], [May 2026 - Present])
 - Architected a real-time embedded system on the ESP-32
   (ESP-IDF/FreeRTOS) coordinating concurrent tasks for sensor
   acquisition, signal processing, and actuator control
-- Implemented a 3-sensor triangulation algorithm to localize NIR
-  sources in space using AI trained TDoA estimation
+- Implemented an AI trained 3-sensor triangulation algorithm to localize NIR
+  sources in space using TDoA estimation
 - Developed a closed-loop 2-axis gimbal control system
   with servo actuation for smooth, accurate target
   tracking
